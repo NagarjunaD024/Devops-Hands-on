@@ -1,5 +1,6 @@
 provider "aws" {                                               
   region = "us-east-2"
+  profile = "morgen_2"
 }
 
 resource "aws_security_group" "sample_app" {                   
