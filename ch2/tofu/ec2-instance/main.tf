@@ -22,12 +22,13 @@ data "aws_ami" "sample_app" {
     name   = "name"
     values = ["sample-app-packer-*"]
   }
+  
+  owners      = ["self"]
+  most_recent = true
   tags = {
     Name = var.name
     Test = "update"
   }
-  owners      = ["self"]
-  most_recent = true
 }
 
 resource "aws_instance" "sample_app" {                         
