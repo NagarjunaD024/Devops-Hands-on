@@ -3,3 +3,4 @@
 *.iml
 *.idea
 *.DS_Store
+ch3/ansible/nginx_instances.key
