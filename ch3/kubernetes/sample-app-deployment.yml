@@ -12,7 +12,7 @@ spec:
     spec:
       containers:                 
         - name: sample-app        
-          image: ghcr.io/nagarjunad024/sample-app:v2 
+          image: 198321609771.dkr.ecr.us-east-2.amazonaws.com/sample-app:v3
           ports:
             - containerPort: 8080 
           env:                    
