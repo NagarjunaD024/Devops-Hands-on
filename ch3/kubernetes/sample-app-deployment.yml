@@ -12,7 +12,7 @@ spec:
     spec:
       containers:                 
         - name: sample-app        
-          image: ghcr.io/nagarjunad024/sample-app:v1  
+          image: ghcr.io/nagarjunad024/sample-app:v2 
           ports:
             - containerPort: 8080 
           env:                    
