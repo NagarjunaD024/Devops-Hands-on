@@ -7,8 +7,10 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js",
-  "dockerize": "./build-docker-image.sh"
-}
-
+    "start": "node app.js",
+    "dockerize": "./build-docker-image.sh"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
