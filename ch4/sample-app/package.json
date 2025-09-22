@@ -8,7 +8,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
-    "dockerize": "./build-docker-image.sh"
+    "dockerize": "./build-docker-image.sh",
+     "test": "jest --verbose"
   },
   "dependencies": {
     "express": "^5.1.0"
