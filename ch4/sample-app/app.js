@@ -7,3 +7,7 @@ app.get('/', (req, res) => {
 });
 
 module.exports = app;
+
+app.get('/name/:name', (req, res) => {
+  res.send(`Hello, ${req.params.name}!`);
+});
